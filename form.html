@@ -1,0 +1,109 @@
+<link rel="stylesheet" type="text/css" href="css/menu.css" />
+<link rel="stylesheet" type="text/css" href="css/styleform.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css"/>
+
+<title>CoDiJr - Entre em Contato</title>
+
+<div class="containermenu js-menu-container">
+
+    		<a class="botaomenu js-menu-close">
+				<div class="iconemenu is-active">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+			</a>
+
+			<div class="menu">
+
+				<div class="menuimagem"></div>
+
+				<h1 class="menutitulo">CodiJr - Entre em Contato</h1>
+
+				<nav class="menuclique">
+					<ul>
+
+						<li>
+							<a href="index.html">Tela Inicial</a>
+						</li>
+
+						<li>
+							<a href="equipe.html">Equipe</a>
+                        </li>
+                        
+                        <li>
+							<a href="projetos.html">Projetos</a>
+						</li>
+						<li>
+							<a href="form.html">Entrar em Contato</a>
+						</li>
+
+					</ul>
+				</nav>
+
+
+				<a target="_blank" href="https://www.facebook.com/CoDiJr" class="social-button--facebook">
+					<i class="icon--facebook"></i>
+				</a>
+
+				<a target="_blank" href="http://www.instagram.com/CodiJr" class="social-button--instagram">
+					<i class="icon--instagram"></i>
+				</a>
+
+			</div>
+
+    	</div>
+
+		<article class="card">
+            <aside class="card__image-container">
+
+				<a class="botaomenu js-menu-button">
+					<div class="iconemenu">
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</a>
+            </aside>
+
+			<section class="card__contents">
+		
+                <div class="inner">
+                    <form name="form"action="">
+                        <h3>Entre Em Contato</h3>
+                        <p>Digite uma mensagem se desejar entrar em contato conosco.</p>
+                        <label class="form-group">
+                            <input name="nome" id="nomeid" type="text" class="form-control"  required="required">
+                            <span>Nome</span>
+                            <span class="border"></span>
+                        </label>
+                        <label class="form-group">
+                            <input name="email"id="emailid" type="text" class="form-control"  required="required">
+                            <span>E-mail</span>
+                            <span class="border"></span>
+                        </label>
+                        <label class="form-group" >
+                            <textarea name="mensagem" id="mensagemid" class="form-control" required="required"></textarea>
+                            <span>Sua Mensagem</span>
+                            <span class="border"></span>
+                        </label>
+                        <button onclick="Enviar();">Enviar 
+                            <i class="zmdi zmdi-arrow-right"></i>
+                        </button >
+					</form>
+                </div>
+			
+			
+				
+                </section>
+			</article>
+                <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+                <script src="js/menujs.js"></script>
+                <script src="js/form.js"></script>
