@@ -12,7 +12,11 @@
   "orientation": "any",
   "related_applications": [],
   "prefer_related_applications": "false",
-  "icons": [],
+  "icons": [{
+    "src": "https://mir-s3-cdn-cf.behance.net/user/276/cacb4514958103.5bad71d74e1ed.png",
+    "sizes": "48x48",
+    "type": "image/webp"
+  }],
   "url": "https://jvsampaios.github.io/",
   "generated": true,
   "screenshots": []
