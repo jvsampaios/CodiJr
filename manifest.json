@@ -13,9 +13,9 @@
   "related_applications": [],
   "prefer_related_applications": "false",
   "icons": [{
-    "src": "https://mir-s3-cdn-cf.behance.net/user/276/cacb4514958103.5bad71d74e1ed.png",
+    "src": "img/codinome2.jpg",
     "sizes": "48x48",
-    "type": "image/webp"
+    "type": "image/jpg"
   }],
   "url": "https://jvsampaios.github.io/",
   "generated": true,
