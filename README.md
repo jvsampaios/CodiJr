@@ -11,5 +11,5 @@ Em "CodiJr", você tem uma visão geral da empresa e dos seus membros ativos.
   - **HTML**
   - **CSS**
   - **Javascript**
-  - **Firebase**
+  - **Bootstrap**
 
